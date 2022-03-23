@@ -1,0 +1,79 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block element %}
+
+<section id="Features">
+    <div class="container">
+        <h2 class="h-primary">Amazing Features</h2>
+        <div class="all-features">
+            <div id="F-Left" class="features-column">
+                <div id="F1" class="lf">
+                    <div class="text">
+                        <h5>EYE-CATCHING DESIGN</h5>
+                        <p>Enjoy a stunning view of application and suggest others to download our app FreeKey11</p>
+                    </div>
+                    <div class="icon">
+                        <i class="fa fa-eye"></i>
+                    </div>
+                </div>
+                <div id="F2" class="lf">
+                    <div class="text">
+                        <h5>MATCH DOCUMENTATION</h5>
+                        <p>We have covered everything about match description including details of participants.</p>
+                    </div>
+                    <div class="icon">
+                        <i class="fa fa-file"></i>
+                    </div>
+                </div>
+                <div id="F3" class="lf">
+                    <div class="text">
+                        <h5>PLAY WITH FRIENDS</h5>
+                        <p>Register with your friends and play at the end earn money by playing fantasy Cricket.</p>
+                    </div>
+                    <div class="icon">
+                        <i class="fa fa-user"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div id="F-Middle" class="features-column">
+                <div id="F-Image" class="Image">
+                    <img src="{% static 'Images/app.png' %}" alt="app.png">
+                </div>
+            </div>
+
+            <div id="F-Right" class="features-column">
+                <div id="F4" class="rf">
+                    <div class="icon">
+                        <i class="fa fa-play"></i>
+                    </div>
+                    <div class="text">
+                        <h5>LIVE VIDEO STREAMING</h5>
+                        <p>We provide a full match video on youtube,so players can watch highlights of the match.
+                        </p>
+                    </div>
+                </div>
+                <div id="F5" class="rf">
+                    <div class="icon">
+                        <i class="fa fa-user-plus"></i>
+                    </div>
+                    <div class="text">
+                        <h5>REFER & EARN</h5>
+                        <p>Invite your friends to play with GamersPocket and get rewarded by money.</p>
+                    </div>
+                </div>
+                <div id="F6" class="rf">
+                    <div class="icon">
+                        <i class="fa fa-life-ring"></i>
+                    </div>
+                    <div class="text">
+                        <h5>CUSTOMER SUPPORT</h5>
+                        <p>Contact us for any queries, we try to solve your problem in appropriate way.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock %}

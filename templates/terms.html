@@ -1,0 +1,944 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block element %}
+    <style>
+        body {
+            background-color: #eeeeee;
+        }
+
+        .privacy-policy {
+            text-align: left;
+            background-color: white;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            margin: 45px;
+            padding: 25px;
+        }
+
+        .h-primary {
+            padding: 10px 10px;
+        }
+
+        h2 {
+            margin-top: 15px;
+            margin-bottom: 5px;
+            font-family: 'Roboto Slab', serif;
+        }
+
+        p {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .h-secondary {
+            padding: 20px;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        @media only screen and (max-width: 600px) {
+            .privacy-policy {
+                margin: 0px;
+                text-align: left;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav id="navbar" class="navbar">
+        <div class="container">
+            <div class="logo">
+                <img class="icon-image" src="{% static 'Images/FreeKey11.png' %}" alt="Icon.png">
+                <h1>FreeKey11</h1>
+            </div>
+            <div class="menu-items hide-menu">
+                <ul>
+                    <li><a class=active href="index-2.html">Home</a></li>
+                    <li><a href="index-2.html#Scenshots">Scenshots</a></li>
+                    <li><a href="index-2.html#Features">Features</a></li>
+                    <li><a href="index-2.html#faq">FAQ</a></li>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container privacy-policy">
+        <h2>Terms & Conditions</h2>
+        <p>FreeKey11 is an online gaming platform offered by GamesKraft Technologies Pvt. Ltd (hereinafter referred to as
+            “GamesKraft”, or “We” or “Us” or “Our”). FreeKey11, through its website and related mobile applications
+            (together referred to as “Platform”), offers a wide variety of online board games, card games, sports-based
+            fantasy games, and other skill-based games. These Terms of Service for FreeKey11 (“Terms”) along with
+            FreeKey11’s Privacy Policy (“Privacy Policy”), and the Fair Play Policy (“Fair Play Policy”), govern the
+            relationship between the users (“You”) and Us. The Terms, Privacy Policy, the Fair Play Policy, and the
+            cumulative set of Game Rules (together “Platform Policies”) form a binding legal agreement between You and
+            GamesKraft, on the basis of which You may visit, access, or use the Platform and related services offered by
+            Us (“Services”).
+        </p>
+        <p>Your use of the Services indicates Your acceptance of the Platform Policies and hence You are advised to read
+            the Terms carefully before using Our Services. </p>
+        <p>We reserve the right to periodically review, update, or otherwise modify any part of the Platform Policies at
+            Our sole and absolute discretion, and accordingly, You are advised to keep Yourself updated on the latest
+            Platform Policies. We will provide you with notice of any modification to the Terms, and Your continued
+            access and use of the Services after such notification shall constitute consent to the modified Platform
+            Policies.</p>
+        <p>If You do not accept any part of the Platform Policies or any subsequent modification therein, You must stop
+            accessing or using Our Services.</p>
+        <p>To use the Services and play on the Platform, You must register with Us and consent to the Platform Policies.
+            You can register with Us here. </p>
+        <p>In the event where one or more of the terms hereunder are determined to be invalid or unlawful for any
+            reason, by a competent judicial or quasi-judicial authority in India, the validity or enforceability of the
+            remaining terms will not be affected and the same will be valid and binding on You and all other users.</p>
+
+        <div class="terms-box">
+            <div class="terms-tabs" id="tab1">
+                <div class="accordion first-tab">
+                    <div class="title-box">1. Definitions:</div>
+                </div>
+                <div class="panel">
+                    <p>1.1 “Activity” shall mean a users’ participation in the Games organized by Us. </p>
+                    <p>1.2 “Bank Account” shall mean a financial account maintained with a Banking Company. </p>
+                    <p>1.3 “Banking Company” shall mean a banking company as defined under section 5(b) of the Banking
+                        Regulation Act, 1949. </p>
+                    <p>1.4 “Barred States” shall mean any state in the territory of India where online gaming has been
+                        prohibited under applicable laws or by an order of a court of competent jurisdiction. </p>
+                    <p>1.5 “Bonus Segment” shall mean the segment of the FreeKey11 Account to which bonuses earned by the
+                        User and any amount under any other promotional offer on the Platform are credited. </p>
+                    <p>1.6 “Cash Games” are Games that involve a financial stake placed by the participants on the
+                        outcome of the Game. </p>
+                    <p>1.7 “Communication Feature” shall mean the in-game features that enable users to interact with
+                        each other during a Game. </p>
+                    <p>1.8 “Contest” shall have the meaning ascribed to it under Clause 5.2. </p>
+                    <p>1.9 “Deposit Segment” shall mean the segment of the FreeKey11 Account to which the money deposited
+                        by the User is credited. </p>
+                    <p>1.10 “Game(s)” shall mean the various online board games, card games, sports-based fantasy games
+                        and other skill-based games offered on the Platform, and shall include the various formats
+                        available through Our Services, as described in Clause 5.1. </p>
+                    <p>1.11 “Inactive Account Fee” shall mean the amount charged from a user for the monthly maintenance
+                        of their FreeKey11 Account where such user fails to play Cash Games through their FreeKey11
+                        Account for twelve (12) consecutive months. </p>
+                    <p>1.12 “Platform” shall mean the FreeKey11 website and related mobile applications on which online
+                        board games, card games, sports-based fantasy games, and other skill-based games are made
+                        available to users. </p>
+                    <p>1.13 “Platform Policies” shall mean the Terms, Privacy Policy, the Fair Play Policy of FreeKey11,
+                        and the cumulative set of Game Rules for each Game available on FreeKey11. </p>
+                    <p>1.14 “Poker Segment” shall mean the segment of the FreeKey11 Account relevant to Poker Games, to
+                        which: (i) users may transfer the funds for the purpose of playing the Poker Games, and (ii)
+                        winnings from Poker Games are credited.</p>
+                    <p>1.15 “FreeKey11 Account” shall mean the user account maintained by a user with GamesKraft, to play
+                        Games on the Platform, consisting of the Deposit Segment, Winnings Segment, Bonus Segment, and
+                        Poker Segment.</p>
+                    <p>1.16 “Refund” shall mean the reversal of the charges paid by a user to play a game, to such
+                        user’s FreeKey11 Account.</p>
+                    <p>1.17 “Service Fee” shall mean the fee charged by GamesKraft to each user on the value of their
+                        financial stake in a Cash Game. </p>
+                    <p>1.18 “Terms” shall mean the Terms of Service and the Privacy Policy of FreeKey11. </p>
+                    <p>1.19 “Winnings Segment” shall mean the segment of the FreeKey11 Account to which the winnings of
+                        users from the Games are credited, less the applicable Service Fees and other levies/deductions.
+                        It is clarified that winnings from Poker Games are not directly credited to the Winnings
+                        Segment, but instead to the Poker Segment.</p>
+                    <p>1.20 “Withdrawable Balance” shall mean the amount in the Winnings Segment. </p>
+                    <p>1.21 “Withdrawal” shall mean the transfer of all or part of the Withdrawable Balance to a
+                        designated Bank Account, upon specific instructions by the user to GamesKraft to initiate such
+                        transfer.</p>
+                    <p>1.22 “Withdrawal Request” shall mean a request by the User to initiate Withdrawal. </p>
+                </div>
+            </div>
+
+
+            <div class="terms-tabs" id="tab2">
+                <div class="accordion first-tab">
+                    <div class="title-box">2. Who may use Our Services:</div>
+                </div>
+                <div class="panel">
+                    <p>2.1 Our Services are not intended for or offered to any person below the age of eighteen (18)
+                        years, or persons who are resident in any of the Barred States (Andhra Pradesh, Karnataka,
+                        Kerala (for Rummy), Gujarat (for Poker), Assam, Nagaland, Odisha, Telangana, and Sikkim). We
+                        have the right to control the access to Our Services at all times, in any State in India, and
+                        reserve the right to update the list of Barred States on the basis of applicable laws or an
+                        order of a court of competent jurisdiction.</p>
+                    <p>2.2 If You are below the age of 18 years or a resident in any of the Barred States, You may not
+                        access and use Our Services. In case You do, You shall be solely responsible for any legal
+                        actions that may ensue from such use of Our Services. We reserve the right to request proof of
+                        age at any stage of Your access and use of Our Services to verify that persons below the age of
+                        18 years are not using the Service. We may exclude a person from using Our Services where We
+                        suspect that such person using the Service is under-age and he/she fails to provide Us with a
+                        valid proof of age.</p>
+                    <p>2.3 If You are not legally competent to individually enter into Indian Rupee transactions through
+                        banking channels in India and/or are accessing the Services from a Barred State, You are
+                        prohibited from participating in Cash Games on Our Services. In the event of such violation,
+                        Your participation in Cash Games will be deemed to be in breach of the Platform Policies and You
+                        will not be entitled to receive any prize that You might win in such Cash Games.</p>
+                    <p>2.4 We may terminate Your access and use of the Services when We become aware of or are of the
+                        opinion, at our sole discretion, that Your use and access of Our Service is in violation of the
+                        Platform Policies.</p>
+                </div>
+            </div>
+
+            <div class="terms-tabs" id="tab3">
+                <div class="accordion first-tab">
+                    <div class="title-box">3. How can You access and/or use the Service:</div>
+                </div>
+                <div class="panel">
+                    <p>3.1 FreeKey11 allows You to play Games with other registered users on the Platform. All games that
+                        are made available on the Platform are games of skill (the outcome of the game is primarily
+                        dependent upon Your skills and not luck or chance), therefore, it is legal to play these games
+                        in most states in India. </p>
+                    <p>3.2 You can play the Games offered on the Platform only via the FreeKey11 website and mobile
+                        application, which can be downloaded or installed from the Google Play Store for Android users,
+                        and Apple’s App Store for iOS users.</p>
+                    <p>3.3 When You access Our Services and/or create a FreeKey11 Account, We may collect, use, share
+                        with third parties, store, or otherwise process Your information, which may include Your
+                        personal information and sensitive personal information, to ensure that the Services may be
+                        accessed and used by You efficiently. The collection, use, sharing of such information is
+                        governed by the Privacy Policy which forms an integral part of the Platform Policies. You may
+                        access the Privacy Policy.</p>
+                    <p>3.4 At the time You register with Us, You are required to verify Your mobile number for playing
+                        any of the Games offered on our Platform. This is to safeguard against fraud of any form at
+                        FreeKey11. All Your information is kept confidential and processed as per Our Privacy Policy.
+                    </p>
+                    <p>3.5 When You register with Us, You agree to receive promotional messages from Us, and our
+                        affiliates, through SMS, Email, Call and Push Notifications, in relation to Tournaments, offers,
+                        and bonuses. You may withdraw Your consent to receive such notification by sending an email to
+                        support@FreeKey11.com </p>
+                    <p>3.6 Internet connectivity issues at Your end, disruptions due to Your local internet environment,
+                        errors in the setup of software or hardware on Your end, or other factors not directly
+                        attributable to Us, are beyond Our control, and accordingly, We will not incur any liability for
+                        any halts, breaks, or interruptions in Your usage of Our Services on account of such issues.</p>
+                    <p>3.7 Winnings, bonuses, and prizes whether monetary or non-monetary are unique to each player and
+                        are non-transferable. In the event You attempt to transfer any winnings, bonuses, or prizes,
+                        these will be forfeited at Our sole discretion.</p>
+                </div>
+            </div>
+
+            <div class="terms-tabs" id="tab3">
+                <div class="accordion first-tab">
+                    <div class="title-box">4. User Identity:</div>
+                </div>
+                <div class="panel">
+                    <p>When you register with Us, You choose Your unique username which shall be your identity (“User
+                        ID”) on the Platform. Once Your chosen username is confirmed (subject to availability and in
+                        compliance with these Terms), the same cannot be modified (except as set out in Clause 4.3).
+                    </p>
+                    <p>You are prohibited from creating or using multiple User IDs on our Platform. If multiple User IDs
+                        are detected for one user, we may take penal actions, including cancellation of all bonus
+                        amounts on linked User IDs, and suspension of the linked User IDs.</p>
+                    <p>User IDs must not be indecent, objectionable, offensive, or unlawful. User IDs that are found to
+                        violate the intellectual property of any entity, reveal personal information, or be suggestive
+                        of an advertisement or promotional activity, may be rejected. Users in violation of these
+                        stipulations will be given an opportunity to provide an alternate User ID, failing which We
+                        reserve the right to either terminate Your FreeKey11 Account or restore Your FreeKey11 Account
+                        only after an acceptable User ID has been provided by You.</p>
+                    <p>Your User ID will remain active on the Platform unless We terminate or suspend Your access to the
+                        Platform for a violation of the Platform Policies in accordance with these Terms, or where You
+                        voluntarily delete Your FreeKey11 Account or where Your FreeKey11 Account becomes inactive as per
+                        Clause 11.1. </p>
+                </div>
+            </div>
+
+            <div class="terms-tabs" id="tab4">
+                <div class="accordion first-tab">
+                    <div class="title-box">5. Game Formats and Rules:</div>
+                </div>
+                <div class="panel">
+                    <p>5.1 We currently offer five (5) formats for the various games available on the Platform, namely -
+                        practice games, Cash Games, tournaments, contests (for sports-based fantasy games), and
+                        promotional games (which may involve rewards or bonuses). We may increase or reduce the number
+                        of game formats offered through Our Services, at our sole discretion. </p>
+                    <p>5.2 A “Contest” is a skill-based competition provided in our fantasy sports-based games in which
+                        Users can compete against other players. Contests can be paid or free to play. Paid Contests
+                        require users to pay an entry fee for participation, whereas free Contests are open to all users
+                        and do not require the submission of an entry fee</p>
+                    <p>5.3 You agree to abide by the rules and regulations of the Games on the Platform (“Game Rules”).
+                        You are required to ensure that You have read and understood the Game Rules before playing them.
+                        The Game Rules form part of the Platform Policies and can be found on the ‘Game rules/how to
+                        play’ page of Our Services. </p>
+                    <p>5.4 We may, from time to time, make additional Games available as part of the Services. The
+                        Platform Policies will govern all aspects of such newly introduced Games, and the relevant Game
+                        Rules will be made available to You on Our Services. </p>
+                    <p>5.5 We reserve the right to determine the results and winners of each of the Games in accordance
+                        with the applicable Game Rules. By registering and/or participating in any Game You agree to
+                        these determinations, which shall not be open to challenge. We will post lists of winners on Our
+                        Services following each Game.</p>
+                </div>
+            </div>
+
+            <div class="terms-tabs" id="tab5">
+                <div class="accordion first-tab">
+                    <div class="title-box">6. Restrictions on the use of Our Services:</div>
+                </div>
+                <div class="panel">
+                    <p>You shall not upload, distribute, transmit, publish, share, display, or post content through Our
+                        Services or through any service or facility including any Communication Feature provided by Us
+                        which:</p>
+                    <ul class="alpha">
+                        <li>
+                            <p>belongs to another person and to which You do not have any right;</p>
+                        </li>
+                        <li>
+                            <p>is defamatory, obscene, pornographic, paedophilic, invasive of another’s privacy,
+                                including bodily privacy, insulting or harassing on the basis of gender, libellous,
+                                racially or ethnically objectionable, relating or encouraging money laundering or
+                                gambling, or otherwise inconsistent with or contrary to the laws in force;</p>
+                        </li>
+                        <li>
+                            <p>is harmful to a child;</p>
+                        </li>
+                        <li>
+                            <p>infringes any patent, trademark, copyright or other proprietary rights; </p>
+                        </li>
+                        <li>
+                            <p>deceives or misleads the addressee about the origin of the message or knowingly and
+                                intentionally communicates any information which is patently false or misleading in
+                                nature but may reasonably be perceived as a fact; </p>
+                        </li>
+                        <li>
+                            <p>impersonates another person; </p>
+                        </li>
+                        <li>
+                            <p>threatens the unity, integrity, defence, security or sovereignty of India, friendly
+                                relations with foreign states, or public order, or causes incitement to the commission
+                                of any cognisable offence or prevents investigation of any offence or is insulting other
+                                nation; </p>
+                        </li>
+                        <li>
+                            <p>contains a software virus or any other computer code, file or program designed to
+                                interrupt, destroy or limit the functionality of any computer resource; </p>
+                        </li>
+                        <li>
+                            <p>is patently false and untrue, and is written or published in any form, with the intent to
+                                mislead or harass a person, entity or agency for financial gain or to cause any injury
+                                to any person;</p>
+                        </li>
+                        <li>
+                            <p>is otherwise objectionable or undesirable (whether or not unlawful);</p>
+                        </li>
+                        <li>
+                            <p>is aimed at soliciting donations, chips or other forms of help;</p>
+                        </li>
+                        <li>
+                            <p>disparages GamesKraft or any of its subsidiaries, affiliates, licensors, associates,
+                                partners, sponsors, products, services, or websites, in any manner;</p>
+                        </li>
+                        <li>
+                            <p>promotes a competing service or product; or</p>
+                        </li>
+                        <li>
+                            <p>violates any law for the time being in force.</p>
+                        </li>
+                    </ul>
+                    <p>6.2 The Communication Feature for the player may be immediately suspended without any warning
+                        where We are of the opinion that the user is indulging in any activity prohibited under Clause
+                        6.1. above or the Platform Policies. This may also lead to termination of the FreeKey11 Account
+                        of such User. You may report any abusive or malicious behaviour by any other user immediately to
+                        us by following the complaints procedure provided in Clause 16 below.</p>
+                    <p>6.3 You shall not host, intercept, emulate, or redirect proprietary communication protocols, used
+                        by Us, if any, regardless of the method used, including protocol emulation, reverse engineering,
+                        or modification of Our Services or any files that are part of it.</p>
+                    <p>6.4 You shall not frame Our Services. You may not impose editorial comments, commercial material
+                        or any information on Our Services, alter or modify any content, or remove, obliterate or
+                        obstruct any proprietary notices or labels.</p>
+                    <p>6.5 You shall not use Our Services for commercial purposes, including but not limited to use in a
+                        cyber cafe as a computer gaming centre, network play over the Internet, or through gaming
+                        networks, or connection to an unauthorized server that copies the gaming experience offered by
+                        Us.</p>
+                    <p>6.6 You shall not purchase, sell, trade, rent, lease, license, grant a security interest in, or
+                        transfer Your FreeKey11 Account, content, money, contest points, standings, rankings, ratings, or
+                        any other attributes appearing in, originating from, or associated with Our Services.</p>
+                    <p>6.7 Any form of fraudulent activity, including attempting to use or using any other person’s
+                        credit card(s), debit cards, net-banking usernames, passwords, authorization codes, prepaid cash
+                        cards, mobile phones for adding cash to the Deposit Segment, accessing or attempting to access
+                        the Services through someone else’s FreeKey11 Account is strictly prohibited. Where We become
+                        aware of or are of the opinion, at our sole discretion, that You are indulging in such
+                        fraudulent activity, We may terminate Your FreeKey11 Account and notify the appropriate
+                        authorities of the same, where relevant. </p>
+                    <p>6.8 If You are an officer, director, employee, consultant, or agent of GamesKraft, or a relative
+                        of such persons, You are not permitted to play either directly or indirectly, any Games which
+                        entitle You to any prize, other than in the course of Your engagement with FreeKey11. For these
+                        purposes, the term ‘relative’ shall mean a relative as defined under Section 2(77) of the
+                        Companies Act, 2013. </p>
+                    <p>6.9 You undertake that You shall not permit any person to access or use Your FreeKey11 Account and
+                        You will not use any form of external assistance to play the Games and shall not indulge in any
+                        activity which violates the Platform Policies. </p>
+                    <p>6.10 You are prohibited from utilising Our Services for any restricted or unlawful purpose,
+                        including, without limitation, attempting to Withdraw cash from unutilized cash available in
+                        Your FreeKey11 Account or deliberately losing money to a certain player(s).</p>
+                    <p>6.11 You shall not send spam emails or any other form of unsolicited communication for obtaining
+                        registrations with Us to benefit from any promotional program of FreeKey11 or for any other
+                        purpose. </p>
+                </div>
+            </div>
+
+            <div class="terms-tabs" id="tab6">
+                <div class="accordion first-tab">
+                    <div class="title-box">7. Deposit, Payment, Refund, and Cancellation:</div>
+                </div>
+                <div class="panel">
+                    <p>7.1 Once You register with Us, We maintain a FreeKey11 Account for You to keep a record of all
+                        Your transactions with Us. Payments connected with participation in Cash Games have to be made
+                        through Your FreeKey11 Account. All deposits made by You are credited in the Deposit Segment, all
+                        Your winnings are credited by Us into the Winnings Segment, all bonuses and any amount credited
+                        against any promotional offer is credited and reflected in the Bonus Segment, and all wings from
+                        the game of Poker are credited to the Poker Segment. </p>
+                    <p>7.2 All transactions You make with Us shall be in Indian Rupees (INR). You are free to deposit as
+                        much money as You want in the Deposit Segment for the purpose of participating in Cash Games
+                        subject to the following-</p>
+                    <ul class="alpha">
+                        <li>
+                            <p>You can only deposit such amount as may be specified on the Platform to the Deposit
+                                Segment in a single transaction;</p>
+                        </li>
+                        <li>
+                            <p>the monthly add cash limit set by Us with undertakings, indemnity, waiver, and
+                                verification conditions as We deem appropriate in Our sole discretion. We will notify
+                                you of any changes in add cash limits on the platform. </p>
+                        </li>
+                    </ul>
+                    <p>7.3 The deposits made by You in the Deposit Segment are purely for the purpose of participation
+                        in the Cash Games and do not carry or generate any interest or return.</p>
+                    <p>7.4 You cannot transfer any amount from Your FreeKey11 Account to the FreeKey11 Account of another
+                        registered user except as may be permitted by FreeKey11. </p>
+                    <p>7.5 When making a payment, please ensure that the instrument used to make the payment is Your own
+                        and is used to add cash into Your FreeKey11 Account only.</p>
+                    <p>7.6 Credit cards, debit cards, prepaid cash cards, and internet banking payments are processed
+                        through third-party payment gateways. Similarly, other payment modes also require authorization
+                        by the entity which processes such payments. You understand and agree that We shall not be
+                        responsible for delays or denials at their end. The processing of payments will be solely in
+                        terms of their policies and procedures without any responsibility or risk at Our end. </p>
+                    <p>7.7 If there are any issues in connection with adding cash, You may send a complaint to Us
+                        following the complaints procedure provided in Clause 16 below. </p>
+                    <p>7.8 Once a payment/transaction is authorized, the amount is credited to the Deposit Segment and
+                        is available for You to play Cash Games. You agree that in the event of Your credit being
+                        delayed or eventually declined for reasons beyond Our control, We will not be held liable in any
+                        manner whatsoever. </p>
+                    <p>7.9 We have the right to cancel a transaction, at any time and at Our sole discretion, in which
+                        case if the payment is successful, then the transaction will be reversed and the money credited
+                        back to the original source of payment. </p>
+                    <p>7.10 All funds collected from You are held in trust by Us, and kept unencumbered and separate
+                        from Our corporate funds.</p>
+                    <p>7.11 You may Withdraw all or part of the Withdrawable Balance to a designated Bank Account by
+                        means of an electronic bank to bank transfer.</p>
+                    <p>7.12 At the time of initiating a Withdrawal Request, You are required to provide Us with the
+                        details of the Bank Account to which the funds are to be credited.</p>
+                    <p>7.13 A Withdrawal Request will be accepted by Us subject to alignment with the deposit method,
+                        bonus restrictions, and/or security reviews undertaken by automated systems and our risk
+                        management team. You agree that all Withdrawals You make are governed by the following
+                        conditions:</p>
+                    <ul class="alpha">
+                        <li>
+                            <p>You can Withdraw all or part of Your Withdrawable Balance, subject to the levy of
+                                applicable Service Fee, processing fee (depending on the Withdrawal method), and
+                                applicable taxes. You are permitted to make 1 (one) Withdrawal Request per day, subject
+                                to applicable limits. When Withdrawing funds, payment will be made to You either by
+                                electronic wire transfer, and/or any other manner in accordance with your preferences
+                                and applicable law.</p>
+                        </li>
+                        <li>
+                            <p>Withdrawal Requests shall, subject to Withdrawal restrictions specified in these Terms
+                                and the Platform, be processed post Your successful KYC verification. </p>
+                        </li>
+                        <li>
+                            <p>Withdrawable Balance can only be Withdrawn when You have made at least one cash deposit
+                                with Us and thereafter played at least one Cash Game.</p>
+                        </li>
+                    </ul>
+                    <p>7.14 On receipt of a Withdrawal Request, and subject to adequate KYC verification, We may
+                        disburse the specified amount by electronic means. We also reserve the right to disburse the
+                        amount on the financial instrument used to add cash to the Deposit Segment.</p>
+                    <p>7.15 We will attempt to process Your Withdrawal Request in a timely manner, but there could be
+                        delays due to the time required for the KYC verification and completing the Withdrawal
+                        transaction. We shall not be liable to pay any form of compensation to You for the reason of
+                        such delays in processing Withdrawal Requests and remitting payments. </p>
+                    <p>7.16 You can request an online Refund anytime in the following instances:</p>
+                    <ul class="alpha">
+                        <li>
+                            <p>where the Game is cancelled on account of a technical issue or Service defect solely
+                                attributable to GamesKraft; or </p>
+                        </li>
+                        <li>
+                            <p>where the GamesKraft risk management team, upon due investigation, discovers a violation
+                                of the Platform Policies by the players of a particular game which unduly prejudiced the
+                                user entitled to the Refund.</p>
+                        </li>
+                    </ul>
+                    <p>7.17 Upon receipt of a Refund request from You, Your Refund request will be verified, and where
+                        accepted, the same will be processed within two (2) weeks and the requisite Refund amount will
+                        be added to Your FreeKey11 Account. </p>
+                    <p>7.18 When You request for cancellation of any ‘add cash’ transaction on Our Platform, We will
+                        process such cancellation request within two (2) weeks, subject to the cancellation request
+                        being made within two (2) hours of the transaction and there being no utilization of the added
+                        funds in the interim. Upon successful cancellation, the fund shall be credited to the original
+                        source used to add such funds.</p>
+                    <p>7.19 Your winnings may be disclosed to the relevant authorities, and requisite amounts may be
+                        withheld from pay-outs, in order to ensure compliance with applicable law and lawful requests
+                        from the government, regulatory bodies, or an order of any court of competent jurisdiction. It
+                        is solely Your responsibility to deal with all the applicable taxes. </p>
+                </div>
+            </div>
+
+            <div class="terms-tabs" id="tab7">
+                <div class="accordion first-tab">
+                    <div class="title-box">8. KYC Verification:</div>
+                </div>
+                <div class="panel">
+                    <p>8.1 We require users to undergo an online document verification (“e-KYC”) in the following
+                        scenarios. </p>
+                    <ul class="alpha">
+                        <li>
+                            <p>where You place a Withdrawal Request of an amount exceeding the applicable limit as
+                                specified on the Platform; </p>
+                        </li>
+                        <li>
+                            <p>where We suspect, or have been notified that You have violated any of the Platform
+                                Policies; and</p>
+                        </li>
+                        <li>
+                            <p>where You have been identified to be in breach of the applicable add cash or winning
+                                thresholds.</p>
+                        </li>
+                    </ul>
+                    <p>8.2 As part of Our e-KYC process, Our automated system enables a mandatory process for users to
+                        upload documents pertaining to their Permanent Account Number (PAN) and Bank Account details.
+                    </p>
+                    <p>8.3 The e-KYC documents must be uploaded on Our Platform, and We do not accept submissions in any
+                        other form or manner. </p>
+                    <p>8.4 At the time of uploading the document on Our Platform, You must ensure the following: </p>
+                    <ul class="alpha">
+                        <li>
+                            <p>Documents are valid;</p>
+                        </li>
+                        <li>
+                            <p>The document is clear and legible, and shared in a jpg, jpeg, or pdf format; and</p>
+                        </li>
+                        <li>
+                            <p>Documents are not password protected. </p>
+                        </li>
+                    </ul>
+                    <p>8.5 The validation of e-KYC documents may take up to three (3) working days from the date of
+                        submission of the documents. We reserve the right to validate the e-KYC document at our sole
+                        discretion. You will be notified of the status of verification on Your registered mobile
+                        number/email address and on Our Platform. </p>
+                </div>
+            </div>
+
+            <div class="terms-tabs" id="tab8">
+                <div class="accordion first-tab">
+                    <div class="title-box">9. Bonus, Benefits and Prize:</div>
+                </div>
+                <div class="panel">
+                    <p>9.1 To be eligible to win a prize or a bonus or benefits, You must be a resident of India and
+                        accessing the Services from within any part of India other than the Barred States. If You are
+                        not a citizen of India, but access the services from within a permitted location in India, You
+                        will be able to use our Services and win prizes or bonuses, and We will process Your Withdrawal
+                        Requests in Indian Rupees to any Indian Bank Account in Your name (subject to KYC verification).
+                    </p>
+                    <p>9.2 When You add cash to the Deposit Segment, You may be allotted certain bonuses or benefits
+                        depending on the ongoing promotional offer. Such bonuses or benefits may be dependent on certain
+                        conditions, such as Your continued usage of Our Services or participation in Cash Games, and
+                        accordingly, a part of the bonus may be released after every qualifying Game You play till the
+                        time the whole bonus has been credited to the Deposit Segment. You understand that the bonus
+                        must be earned (disbursed) within the stipulated claim period, which may differ based on the
+                        ongoing offers. Bonuses are issued at Our sole discretion and cannot be claimed by You as a
+                        matter of right. The release percentage/rate may vary depending on the offer. Bonus shall have
+                        such limited validity as may be communicated to You at the time of its issuance.</p>
+                    <p>For example – If You are awarded Rs.100 bonus and You play a qualifying Game of Rs. 200, where
+                        10% of Rs.200 (where 10% is the percentage release being available as part of the ongoing
+                        offer), i.e., Rs.20 bonus would be credited to Your table balance. If You play the next game of
+                        Rs.500 within the offer period, then 10% of Rs.500, i.e. Rs.50 bonus would be credited to Your
+                        table balance. This will continue till the whole bonus amount is released. </p>
+                    <p>9.3 In the event, Your FreeKey11 Account is terminated by You voluntarily or by Us in accordance
+                        with these Terms, all bonuses and benefits issued to You shall be forfeited by Us and You shall
+                        have no right or interest on such bonus. </p>
+                    <p>9.4 Any violation of the Platform Policies at any stage may result in disqualification from
+                        receiving the bonus and benefits.</p>
+                    <p>9.5 You may win prizes while playing Games on the Platform. Such prizes are subject to the
+                        specific terms and conditions communicated at the time of issuance of the prize.</p>
+                    <p>9.6 The prize and the bonus or any other amount or benefit in the Bonus Segment is not redeemable
+                        for any other prize, nor can it be Withdrawn, or transferred to another user. </p>
+                </div>
+            </div>
+
+            <div class="terms-tabs" id="tab9">
+                <div class="accordion first-tab">
+                    <div class="title-box">10. Service Fees and Taxes:</div>
+                </div>
+                <div class="panel">
+                    <p>10.1 FreeKey11 charges a Service Fee on each Cash Game played on the platform by a user, which may
+                        vary depending on the nature of the Cash Game and is subject to change from time to time, as
+                        indicated in Clause 10.2 below. FreeKey11 reserves the right to levy different Service Fees for
+                        different Games at its sole discretion.</p>
+                    <p>10.2 Users who fulfil certain specific criteria may, at the sole discretion of GamesKraft,
+                        receive discounts, or waivers (“Discounts”) from the Service Fee charged for a particular Game
+                        or a set of Games, even after the conclusion of the Game(s). Accordingly, such post-facto
+                        Discounts by GamesKraft will reduce and reverse a part of the Service Fee applicable to a Game,
+                        and these updates to the Service Fee will be reflected on the information panel available to
+                        each user on the Platform.</p>
+                    <p>10.3 Discounts may be granted to users on the basis of a number of parameters pertaining to usage
+                        of the Platform by the user, including the frequency of Games played, participation in
+                        tournaments or special Game types, overall winnings, conduct on the Platform, players referred
+                        to the Platform, etc. Further, a Discount is revocable at the discretion of GamesKraft, and it
+                        is clarified that the user has no right to either receive or retain a Discount. </p>
+                    <p>10.4 It is clarified that all forms of Discounts and other promotional bonuses and rebates
+                        offered by GamesKraft to a user shall not exceed the total Service Fee chargeable to such user,
+                        and GamesKraft has the right to reduce and vary Discounts and promotions accordingly. Further,
+                        such Discounts and promotions may be subject to specific conditions, such as usage only in
+                        specific types of Games, or restricted usage only after the expiry of a pre-determined time
+                        period, etc.</p>
+                    <p>10.5 Details pertaining to each Game transaction, including the applicable Service Fee for that
+                        Game, will be accessible by You on an information panel available before You initiate a Game.
+                        The Service Fee charged for each Game transaction, shall be inclusive of the Goods and Services
+                        Taxes, at the rates mandated under applicable law. Variations to Service Fees in the manner set
+                        out in this Clause 10, may impact the overall transaction details of a Game, including the taxes
+                        applicable thereon, and hence you are advised to periodically check the information panel. If
+                        You require any further information on any aspect of the Service Fee, including the tax
+                        components thereof, You may write to us at support@FreeKey11.com. </p>
+                    <p>10.6 All Cash Games are subject to applicable taxes and levies. We are legally mandated to deduct
+                        tax at source (“TDS”) on winnings of more than INR. 10,000/- (Indian Rupees Ten Thousand only)
+                        in a Cash Game or a Contest as the case may be. In these cases, You will be required to furnish
+                        Your PAN. Accordingly, a TDS at the rate of 30% (excluding cess) will automatically be deducted
+                        from such winnings and the rest credited to the Winnings Segment. These limits and rates are
+                        subject to change as per the applicable laws. FreeKey11’s obligation in this regard is limited to
+                        deducting TDS as required by law and providing You with an appropriate certificate of tax
+                        deduction. We reserve the right to verify Your PAN from time to time and to cancel any prize
+                        should Your PAN be found inconsistent in Our verification process. We shall have no liability or
+                        responsibility for Your individual taxation matters.</p>
+                    <p>10.7 When You play a Poker Game on the Platform, all Your winnings are credited to the Poker
+                        Segment. If You wish to Withdraw such Poker winnings, You are required to initiate a transfer of
+                        such winnings to Your Winnings Segment, and thereafter place a Withdrawal Request. Where Your
+                        winnings, less entry fees, at the time of such transfer is more than INR 10,000/- (Indian Rupees
+                        Ten Thousand only), You will be subject to a TDS at the rate of 30% (excluding cess) on such
+                        winnings. </p>
+                </div>
+            </div>
+
+            <div class="terms-tabs" id="tab10">
+                <div class="accordion first-tab">
+                    <div class="title-box">11. Termination, Suspension, and Opt-out:</div>
+                </div>
+                <div class="panel">
+                    <p>11.1 If You do not play Cash Games from Your FreeKey11 Account for twelve (12) months
+                        consecutively, Your FreeKey11 Account shall be considered inactive and a monthly maintenance fee
+                        of INR 250/- (Indian Rupees Two Hundred and Fifty only) will be charged against Your inactive
+                        account (“Inactive Account Fee”). If Your FreeKey11 Account balance remains negative on the
+                        application of the Inactive Account Fee for more than fifteen (15) days, Your account shall be
+                        closed permanently. </p>
+                    <p>11.2 We reserve the right to suspend or terminate Your FreeKey11 Account if We find that You are
+                        violating any of our Platform Policies, or breaching/attempting to breach the security of Our
+                        Services in any manner, Your FreeKey11 Account may be terminated immediately and any prize,
+                        bonus, or funds therein shall be forfeited. </p>
+                    <p>11.3 In the instance Your FreeKey11 Account is terminated by Us as per Clause 11.2, You </p>
+                    <ul class="alpha">
+                        <li>
+                            <p>will not be able to use Our Services from the mobile number, PAN, and Bank Account linked
+                                to the terminated FreeKey11 Account;</p>
+                        </li>
+                        <li>
+                            <p>may be permitted to Withdraw the Withdrawable Balance, subject to applicable
+                                restrictions.</p>
+                        </li>
+                    </ul>
+                    <p>11.4 Further, if We find that a user is breaching/attempting to breach Our security or privacy
+                        protocols, We may, following an internal investigation, decide to undertake a range of actions,
+                        depending upon the severity of the detected breach. We reserve the sole right to act and take
+                        one or more of the following actions:</p>
+                    <ul class="alpha">
+                        <li>
+                            <p>We may stop access and usage of Our Services, indefinitely, for such user;</p>
+                        </li>
+                        <li>
+                            <p>We may permanently terminate such users’ FreeKey11 Account.</p>
+                        </li>
+                        <li>
+                            <p>We may restrict Withdrawals for such users.</p>
+                        </li>
+                        <li>
+                            <p>We may demand compensation for the damages to Our Services that occurred because of the
+                                breach and prosecute a user for any violation of the law and the Terms if need be.</p>
+                        </li>
+                        <li>
+                            <p>We can prohibit the user from registering with Us in the future.</p>
+                        </li>
+                    </ul>
+                    <p>11.5 We may attempt to validate Your FreeKey11 Account via call or email. In the event that We are
+                        not able to get in touch with You the first time around, We will make additional attempts to
+                        establish contact with You. In cases where the phone number and email address provided by You is
+                        incorrect, We bear no responsibility for the Services being interrupted due to Our inability to
+                        establish contact with You. In case We are unable to reach You or if the validation is
+                        unsuccessful, We reserve the right to disallow You from logging onto Our Services or reduce Your
+                        play limits and/or add cash limits till such time We are able to satisfactorily validate Your
+                        FreeKey11 Account. In such an event, We will notify You via email of the next steps regarding
+                        Your FreeKey11 Account validation. We may also ask You for proof of identification and proof of
+                        address from time to time. Where Your access to Your FreeKey11 Account is limited or access to
+                        Our Services is restricted as a result of unsuccessful user account validation, We may take
+                        seven (7) working days to reinstate complete access to Your FreeKey11 Account and Our Services
+                        upon successful validation. In the event that We have made several unsuccessful attempts to
+                        reach out to You, We reserve the right to terminate Your FreeKey11 Account and refund the
+                        Withdrawable Balance, if any. We will not be liable for any claim, damage or loss accruing to
+                        You from such termination or restriction.</p>
+                    <p>11.6 You are free to discontinue using Our Services at any time by intimating Us of Your desire
+                        to do so by sending an email to Us at support@FreeKey11.com (“Discontinuation Request” ). Subject
+                        to the satisfactory verification of the Discontinuation Request, if there is a positive
+                        Withdrawable Balance and/or funds in the Deposit Segment, We will disburse the same to You by
+                        online transfer as per the Terms. Provided that any transfer from the Deposit Segment will
+                        attract an account closure fee of INR 1,000.00 (Indian Rupees One Thousand Only) or ten (10)
+                        percent of the total funds to be transferred, whichever is higher. </p>
+                </div>
+            </div>
+
+            <div class="terms-tabs" id="tab11">
+                <div class="accordion first-tab">
+                    <div class="title-box">12. Your Representations and Warranties:</div>
+                </div>
+                <div class="panel">
+                    <p>You represent that:</p>
+                    <p>12.1 You are eligible and competent to enter into transactions with other users and GamesKraft.
+                    </p>
+                    <p>12.2 Any information You provide to Us at any time during the access and use of Our Services,
+                        whether at the stage of registration or any time thereafter is correct, complete, up-to-date,
+                        and accurate. We shall not be liable against any claim relating to the accuracy, completeness,
+                        and correctness of any information You provide Us. We may, at any time and at Our sole
+                        discretion, require You to verify the correctness, completeness, and accuracy of such
+                        information, and to that extent require You to produce additional documentary proof. Where You
+                        fail to provide Us with valid documentary proof, We reserve the right to limit Your access and
+                        use of Our Services. </p>
+                    <p>12.3 You will protect the information You provide Us. You must never share Your FreeKey11 Account
+                        login information with anyone, including any other user of FreeKey11 or any representative of
+                        GamesKraft. You specifically understand and agree that We will not incur any liability for
+                        information provided by You to anyone which may result in Your FreeKey11 Account being exposed or
+                        misused by any other person.</p>
+                    <p>12.4 You have the required legal rights in relation to any content that You may transmit, upload,
+                        or otherwise make available on the FreeKey11 platform, and such action of Yours shall not violate
+                        the intellectual property rights of a third party.</p>
+                    <p>12.5 You shall use Your FreeKey11 Account solely for the purpose of playing the Games offered
+                        through our Services. </p>
+                    <p>12.6 Prior to adding cash to the Deposit Segment or participating in Cash Games, You shall be
+                        responsible to satisfy Yourself about the legality of playing Cash Games in the jurisdiction
+                        from where You are accessing Cash Games. </p>
+                    <p>12.7 You have the experience and the requisite skills required to participate in the Activity and
+                        that You are not aware of any physical or mental condition that would impair Your capability to
+                        fully participate in the Activity. </p>
+                    <p>12.8 You are aware that participation in the Activity may result in financial loss to You. With
+                        full knowledge of the facts and circumstances surrounding this Activity, You are voluntarily
+                        participating in the Activity and assume all responsibility for and risk resulting from Your
+                        participation or being associated with this Activity or around this Activity, including all
+                        risks of financial loss. You understand that GamesKraft shall not be liable for any financial
+                        loss that You may sustain as a result of participation in the Activity. You agree to indemnify
+                        and hold GamesKraft, its employees, directors, officers, and agents harmless with respect to any
+                        and all claims and costs associated with Your participation in the Activity. </p>
+                    <p>12.9 You understand and accept that Your participation in a Game does not create any obligation
+                        on Us to give You a prize. Your winning a prize is entirely dependent on Your skill as a player
+                        vis-à-vis other players in the Game and subject to the Platform Policies.</p>
+                    <p>12.10 You shall not hold GamesKraft responsible for not being able to play any Game for which You
+                        may be eligible to participate. This includes, but is not limited to situations where You are
+                        unable to log into Your FreeKey11 Account or the same may be pending validation or You may be in
+                        suspected or established violation of any of the Platform Policies. </p>
+                </div>
+            </div>
+
+            <div class="terms-tabs" id="tab12">
+                <div class="accordion first-tab">
+                    <div class="title-box">13. Content & Advertisements:</div>
+                </div>
+                <div class="panel">
+                    <p>13.1 You are solely responsible for the content that You transmit, upload, or otherwise make
+                        available on Our Services. By publishing any content on the Platform, You agree to grant Us a
+                        royalty-free, worldwide, non-exclusive, perpetual, and assignable right to use, copy, reproduce,
+                        modify, adapt, publish, edit, translate, create derivative works from, transmit, distribute,
+                        publicly display, and publicly perform Your content and to use such content in any related
+                        marketing materials produced by Us or Our affiliates. Such content may include, without
+                        limitation, Your name, username, profile, or picture and other information provided on the
+                        Platform. </p>
+                    <p>13.2 By accessing or using or availing Our Services, or using the Communication Features, You may
+                        be exposed to content posted by other users, over which GamesKraft has no control. If you find
+                        any aspect of such content offensive or unlawful, You may bring such content to Our notice, and
+                        We shall take such actions prescribed under applicable law. </p>
+                    <p>13.3 We may place certain promoted or sponsored content on the Platform (directly or via links to
+                        other sites or resources) in conjunction with third parties. We make no warranties with respect
+                        to such content and neither do we endorse any information contained therein. We shall not be
+                        liable to You for such promoted or sponsored content, and Your interaction with such content or
+                        third-party resources shall be solely at Your own risk. </p>
+                    <p>13.4 We may use any content in relation to the Games played on the Platform, including recordings
+                        of the gameplay, for Our corporate and marketing purposes, and accordingly, You acknowledge,
+                        agree, and consent to our right in this regard.</p>
+                    <p>13.5 FreeKey11’s Claim of ‘India’s Most Trusted Social Gaming Site’ is completely based on the
+                        reviews and assessments of Our users.</p>
+                </div>
+            </div>
+
+            <div class="terms-tabs" id="tab13">
+                <div class="accordion first-tab">
+                    <div class="title-box">14. Disclaimer & Indemnity & Limitation of Liability:</div>
+                </div>
+                <div class="panel">
+                    <p>14.1 GamesKraft shall not be liable for any claim, loss, injury, damages, expenses, or lost
+                        profits or winnings, incurred by You in connection with Your use of the Services.</p>
+                    <p>14.2 Notwithstanding anything to the contrary contained in the Terms, You agree that Our maximum
+                        aggregate liability for all Your Claims against Us, in all circumstances other than for valid
+                        Withdrawal, shall be limited to the Service Fee, less bonuses, benefits, or prizes paid to Us
+                        over the preceding three (3) months. </p>
+                    <p>14.3 You are solely responsible for any consequence resulting from Your participating in this
+                        Activity or being associated with this Activity or around this Activity. You understand that We
+                        assume no liability or responsibility for any financial loss that You may sustain as a result of
+                        participation in the Activity.</p>
+                    <p>14.4 You agree to indemnify and hold harmless GamesKraft against any claims, actions, suits,
+                        damages, penalties, or awards brought against Us by any entity or individual in connection with
+                        or in respect of Your use of the Services.</p>
+                    <p>14.5 The Platform is offered by GamesKraft on an as-is basis and GamesKraft makes no implied
+                        warranties, with respect to the Service. All implied warranties of merchantability and fitness
+                        for a particular purpose or use, are disclaimed. No one is authorized to make any warranty on
+                        Our behalf, and users may not rely on any other statement of warranty. However, if there is an
+                        error in Our Service, We shall take prompt steps to rectify the same.</p>
+                    <p>14.6 GamesKraft expressly disclaims all responsibility and liability for any harm, damages, or
+                        loss resulting from Your participation in, or cancellation of, any Game, any activity or
+                        transactions with third parties whom You may have connected to through Our Services, and any
+                        user-generated content, including any violation of intellectual property rights with respect to
+                        such user-generated content.</p>
+                    <p>14.7 The failure on behalf of You or Us to insist upon strict performance of any of the
+                        provisions herein or to exercise any option, right or remedy contained herein, shall not be
+                        construed as waiver or relinquishment of such provisions, option, right or remedy but the same
+                        shall continue and remain in full force and effect. No waiver by You or Us of any provision
+                        hereof shall be deemed to have been made unless expressed in writing and signed by You or Us, as
+                        the case may be.</p>
+                    <p>14.8 The effective Platform Policies contain all the terms agreed between the Parties regarding
+                        the access to and use of Our Services and supersedes and excludes any prior terms and conditions
+                        made between You and Us. </p>
+                </div>
+            </div>
+
+            <div class="terms-tabs" id="tab14">
+                <div class="accordion first-tab">
+                    <div class="title-box">15. Intellectual Property Rights:</div>
+                </div>
+                <div class="panel">
+                    <p>15.1 GamesKraft and/or its affiliates, as the case may be, exclusively owns all rights and
+                        intellectual property of any type throughout the world, including but not limited to patents,
+                        trademarks, domain names, trade names, service marks, copyrights, software, trade secrets,
+                        industrial designs, and know-how in the Services and underlying technology and documentation
+                        therein (“GamesKraft Intellectual Property”). </p>
+                    <p>15.2 By virtue of validly registering with Us, You are granted a limited right to use Our
+                        Services in accordance with the Platform Policies, and You have no other right, ownership,
+                        title, or interest in the GamesKraft Intellectual Property. </p>
+                </div>
+            </div>
+
+            <div class="terms-tabs" id="tab15">
+                <div class="accordion first-tab">
+                    <div class="title-box">16. Complaints and Disputes:</div>
+                </div>
+                <div class="panel">
+                    <p>16.1 If You have any complaint or grievance relating to any aspect of the Services, You may
+                        approach Our customer care and grievance redressal team for resolution of such issues by writing
+                        to support@FreeKey11.com </p>
+                    <p>16.2 You agree that all complaints and disputes at FreeKey11 are to be kept confidential. We will
+                        endeavour to resolve all grievances within a reasonable time period, as mandated under
+                        applicable law. Any decision taken by Us relating to any complaint will be binding on the user.
+                    </p>
+                </div>
+            </div>
+
+            <div class="terms-tabs" id="tab16">
+                <div class="accordion first-tab">
+                    <div class="title-box">17. Governing Law, Dispute Resolution & Jurisdiction:</div>
+                </div>
+                <div class="panel">
+                    <p>17.1 The Platform Policies are governed by and shall be interpreted in accordance with the laws
+                        of India.</p>
+                    <p>17.2 Any dispute, controversy, or claim against the Us shall be subject to the exclusive
+                        jurisdiction of the civil courts at Bengaluru, Karnataka only.</p>
+                </div>
+            </div>
+
+            <div class="terms-tabs" id="tab17">
+                <div class="accordion first-tab">
+                    <div class="title-box">18. Responsible Gaming</div>
+                </div>
+                <div class="panel">
+                    <p>GamesKraft is concerned about Your health and well-being, and we constantly take measures to
+                        improve the well-being of our users. You are advised to follow Our Responsible Gaming Policy so
+                        as to maximise Your health and safety while engaging in online gaming.</p>
+                </div>
+            </div>
+            <div class="terms-tabs" id="tab18">
+                <div class="accordion first-tab">
+                    <div class="title-box">19. Notices</div>
+                </div>
+                <p>19.1 By downloading and/or using the Licensed Application, you
+                    agree and acknowledge that
+                <ul>
+                    <li>
+                        <p> a. Apple Inc. and its subsidiaries and group companies
+                            (collectively, “Apple”) are not responsible for the Licensed
+                            Application and it’s content. In addition, your use of such
+                            Licensed Application downloaded from such location is
+                            limited to a non-transferable license to use the Licensed
+                            Application on any Apple-branded products running iOS
+                            (including but not limited to iPad, iPhone, and iPod touch),
+                            as applicable, that you own or control and as permitted by
+                            the Usage Rules set forth in the Apple iTunes Application
+                            Store Terms of Service. Moreover, we hereby inform you
+                            and you acknowledge and agree that Apple has no
+                            obligation whatsoever to furnish any maintenance and
+                            support services with respect to the Licensed Application</p>
+                    </li>
+
+                    <li>
+                        <p>b. Apple has no warranty obligation with respect to the
+                            Licensed Application and any claims, losses, liabilities,
+                            damages, costs or expenses attributable to any failure to
+                            conform to any warranty set forth in this License
+                            Agreement is the responsibility of the Licensor. </p>
+                    </li>
+
+                    <li>
+
+                        <p>
+                            c. Apple is not responsible for addressing any claims relating
+                            to the Licensed Application or your possession and/or use of the Licensed Application,
+                            including, but not limited to:
+                        <ul>
+                            <li>
+                                <p> (i) product liability claims;</p>
+                            </li>
+                            <li>
+                                <p> (ii) any claim that the Licensed Application fails to conform to any applicable
+                                    legal or regulatory requirement; and </p>
+                            </li>
+                            <li>
+                                <p> (iii) claims arising under consumer protection or similar legislation.</p>
+                            </li>
+                        </ul>
+
+                        </p>
+                    </li>
+
+                    <li>
+                        <p> d. Apple is not responsible for any third-party infringement
+                            claims that the Licensed Application or your possession
+                            and use of the Licensed Application infringes a third party’s
+                            intellectual property rights.</p>
+                    </li>
+                </ul>
+                </p>
+
+                <p>19.2 Third-Party Beneficiary:
+                    The Licensor and you acknowledge and agree that Apple is
+                    a third party beneficiary of this License Agreement with
+                    respect to the Licensed Application, and that Apple will have
+                    the right (and will be deemed to have accepted the right) to
+                    enforce the Agreement against you as a third party
+                    beneficiary thereof as set forth herein.</p>
+
+                <p>19.3 All sweepstakes, contests and other real money gaming aspects in this app are sponsored by
+                    FreeKey11. Apple is not a sponsor or involved in the activity in any manner.</p>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}

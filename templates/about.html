@@ -1,0 +1,68 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block element %}
+    <style>
+        body {
+            background-color: #eeeeee;
+        }
+
+        .privacy-policy {
+            text-align: left;
+            background-color: white;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            margin: 45px;
+            padding: 25px;
+        }
+
+        img{
+         width: 170px;
+         margin-left:5px;
+         float:right;
+        }
+
+        .h-primary {
+            padding: 10px 10px;
+        }
+
+        h2 {
+            margin-top: 15px;
+            margin-bottom: 5px;
+            font-family: 'Roboto Slab', serif;
+        }
+
+        p {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .h-secondary {
+            padding: 20px;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        @media only screen and (max-width: 600px) {
+            .privacy-policy {
+                margin: 0px;
+                text-align: left;
+            }
+        }
+    </style>
+
+    <div class="container privacy-policy">
+        <img src="{% static 'Images\bhabhi ji.jpeg' %}"  alt="">
+        <h2>About Us</h2>
+        <p>About Gudan Kumari -
+            Graduated BSC from Prestigious Institute of Technology<br> 
+            Holding Master degree in MSC<br> 
+            Co founder of Freaky 11<br> 
+            I hail from a small town Sitamanni from Bihar.<br>  
+            Recently living in Delhi.<br> 
+            I am fond of developing projects in computer science.<br> 
+            Passionate to revolutionalise<br> 
+            The It Sector with my acquired and gained knowledge and skills sets.</p><br> 
+            
+    </div>
+
+{% endblock %}   

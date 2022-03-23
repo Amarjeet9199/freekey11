@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block element %}
+
+</section>
+<section id="Scenshots" class="container">
+  <h2 class="h-primary">Our App Screenshots</h2>
+  <p class="h-secondary">Check the screenshots below to get an idea of the app flow and the features.</p>
+  <div>
+      <img src="{% static 'Images/ss-01.png' %}" alt="ss1">
+      <img src="{% static 'Images/ss-02.png' %}" alt="ss2">
+      <img src="{% static 'Images/ss-03.png' %}" alt="ss3">
+      <img src="{% static 'Images/ss-04.png' %}" alt="ss4">
+      <img src="{% static 'Images/ss-05.png' %}" alt="ss5">
+  </div>
+</section>
+
+
+{% endblock %}

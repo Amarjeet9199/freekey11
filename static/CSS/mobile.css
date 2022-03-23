@@ -1,0 +1,106 @@
+/****** Utility Classes Start ******/
+.h-primary{
+    font-size: 1.6rem;
+}
+.h-secondary{
+    font-size: 0.8rem;
+}
+
+/****** Navbar Start ******/
+#navbar .container{
+    flex-direction: column;
+}
+#navbar .logo{
+    width: 100%;
+}
+#navbar .logo h1{
+    font-size: 1.8rem;
+}
+.icon-image{
+    width: 45px;
+}
+.menu-items{
+    width: 100%;
+}
+#navbar ul{
+    flex-direction: column;
+}
+#navbar ul li{
+    border-top: 1.5px solid gray;
+}
+#navbar ul li a {
+    line-height: 45px;
+}
+.burger{
+    display: block;
+}
+
+/****** Home Section Start******/
+#Home .container{
+    flex-direction: column-reverse;
+}
+.left{
+    width: 100%;
+    text-align: center;
+}
+.right{
+    width: 100%;
+    justify-content: center;
+}
+#Home img{
+    width: 200px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+}
+#home-title{
+    font-size: 1.8rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#home-subtitle{
+    margin: 0px 0px 24px;
+}
+#home-btn{
+    font-size: 16px;
+    padding: 8px 8px;
+    margin: 0px 8px 24px 0px;
+}
+
+/****** Features Section Start******/
+#Features .all-features{
+    flex-direction: column;
+    justify-content: center;
+}
+
+#Features div div .lf{
+    flex-direction: column-reverse;
+    text-align: center;
+    align-items: center;
+}
+.lf .icon{
+    width: 65px;
+    margin: 10px 10px;
+}
+#F-Middle{
+    display: none;
+}
+#Features div div .rf{
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.rf .icon{
+    width: 65px;
+    margin: 10px 10px;
+}
+
+/****** Classes for Burger Menu ******/
+.hide-menu{
+    display: none;
+}
+
+#error img{
+    height: 150px;
+}

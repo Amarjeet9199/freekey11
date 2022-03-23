@@ -1,0 +1,20 @@
+.c1 {
+  width: 1400px;
+  height: 400px;
+  /* margin: auto; */
+  border: 3px solid #73ad21;
+}
+
+.c2 {
+  width: 1400px;
+  height: 600px;
+  /* margin: auto; */
+  border: 3px solid #31ad21;
+}
+
+.f1 {
+  width: 1400px;
+  height: 100px;
+  /* margin: auto; */
+  border: 3px solid #06121af8;
+}

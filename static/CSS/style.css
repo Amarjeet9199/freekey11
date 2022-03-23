@@ -1,0 +1,495 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&amp;display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&amp;family=Roboto+Slab&amp;display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/****** Utility Classes ******/
+.h-primary{
+    font-size: 2rem;
+    font-family: 'Roboto Slab', serif;
+    color: #111111;
+    margin: 0px 0px 8px;
+}
+.h-secondary{
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    color: #5f6368;
+    margin: 0px 0px 16px;
+}
+
+.container{
+    text-align: center;
+    padding: 0% 5%;
+}
+
+/****** Navbar Section ******/
+#navbar{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    top: 0px;
+    left: 0px;
+    position: sticky;
+    padding: 0% 5%;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    margin-top: 0;
+}
+#navbar .container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    max-width: 1440px;
+    justify-content: space-between;
+    padding: 0px 0px;
+}
+#navbar .logo{
+    display: flex;
+}
+#navbar .logo h1{
+    font-size: 2rem;
+    font-family: 'Roboto slab', sans-serif;
+    line-height: 60px;
+}
+.icon-image{
+    width: 50px;
+    margin: 10px 10px;
+}
+#navbar ul{
+    display: flex;
+}
+#navbar ul li{
+    list-style: none;
+    display: inline;
+}
+#navbar ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 0px 15px;
+    line-height: 60px;
+}
+#navbar ul li:hover{
+    text-decoration: underline;
+}
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 11px;
+    border: 1px solid rgba(128, 128, 128, 0.685);
+    border-radius: 5px;
+    padding: 5px 8px;
+}
+.line{
+    width: 32px;
+    background-color: #1c0303;
+    border-radius: 3px;
+    height: 3px;
+    margin: 5px 3px;
+}
+/****** Home Section ******/
+
+#Home .container{
+    display: flex;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    overflow-x: hidden;
+    background: url(https://d13ir53smqqeyp.cloudfront.net/d11-static-pages/images/homebg-2021.webp), url(https://d13ir53smqqeyp.cloudfront.net/d11-static-pages/images/homebg-2021.png)#1c0303;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.left{
+    width: 65%;
+    text-align: left;
+}
+.right{
+    display: flex;
+    justify-content: center;
+    width: 35%;
+}
+#home-title{
+    font-size: 3rem;
+    font-family: 'Roboto Slab', serif;
+    margin-top: 100px;
+}
+#home-subtitle{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px 0px 48px;
+}
+#home-btn{
+    color: #f8f9fa;
+    background-color: #ffffff00;
+    border: 1px solid #f8f9fa;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: 'Roboto Slab', serif;
+    margin: 0px 8px 100px 0px;
+    padding: 12px 35px;
+    transition-duration: 0.5s;
+}
+#home-btn:hover{
+    color: #1c0303;
+    background-color: white;
+}
+#Home img{
+    vertical-align: center;
+    border-style: none;
+    width: 230px;
+    margin:15px  25px;
+}
+
+.progress_bar{
+    display: flex;
+    color: white;
+}
+
+.progress_bar div{
+    padding: 10px 15px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.progress_bar div h3{
+    font-size: 26px;
+    color: #e1e1e1;
+    line-height: 26px;
+}
+.progress_bar div p{
+    font-size: 12px;
+    color: #a8a8a8;
+}
+
+.progress1{
+    background-color: #302F2F;
+    text-align: end;
+}
+.progress2{
+    background-color: #1D1D1D;
+}
+
+/****** Scenshots Section ******/
+#Scenshots{
+    padding: 50px 0px;
+}
+#Scenshots div{
+    padding: 0px 15px;
+    overflow: auto;
+    white-space: nowrap;
+}
+#Scenshots div img{
+    width: 220px;
+}
+
+/****** Features Section ******/
+#Features{
+    background-color: #EEEEEE;
+    padding: 50px 0px;
+}
+
+#Features h2{
+    margin: 0px 0px 23px;
+}
+
+#Features .all-features{
+    display: flex;
+    justify-content: center;
+}
+
+#F-Left{
+    padding: 0px 15px;
+}
+#F-Middle{
+    padding: 0px 15px;
+    align-items: center;
+    text-align: center;
+}
+#F-Right{
+    padding: 0px 15px;
+}
+
+#Features div div .lf{
+    display: flex;
+    text-align: right;
+    margin: 0px 0px 16px;
+}
+.lf i{
+    width: 65px;
+}
+.lf .icon{
+    font-size: 32px;
+    color: #E50003;
+    height: 65px;
+    line-height: 65px;
+    text-align: center;
+    border-radius: 10px;
+    border: 1.5px solid black;
+    margin: 4px 0px 0px 24px;
+}
+.rf i{
+    width: 65px;
+}
+.rf .icon{
+    font-size: 32px;
+    color: #E50003;
+    width: 65px;
+    height: 65px;
+    line-height: 65px;
+    text-align: center;
+    border-radius: 10px;
+    border: 1.5px solid black;
+    margin: 4px 24px 0px 0px;
+}
+#Features div div .Image{
+    width: 230px;
+    padding: 0px 15px;
+}
+#Features div div .rf{
+    display: flex;
+    text-align: left;
+    margin: 0px 0px 16px;
+}
+
+#Features div div div img{
+    width: 200px;
+}
+
+#Features div div div h5{
+    color: black;
+    font-size: 18px;
+    font-family: 'Roboto slab', sans-serif;
+    margin: 0px 0px 8px;
+}
+#Features div div div p{
+    color: #5F6368;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px 0px 16px;
+}
+
+/****** Downloads Section Start ******/
+#Download{
+    background-image: url('../Images/last_bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.download-section{
+    padding: 50px 0px;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 100%;
+}
+#download-button{
+    color: white;
+    border: none;
+    background-color: #2A2D35;
+    font-size: 1.5rem;
+    font-family: 'Roboto Slab', serif;
+    border-radius: 10px;
+    padding: 10px 20px;
+    transition-duration: 0.5s;
+}
+#download-button:hover{
+    background-color: #E50003;
+}
+
+#faq{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:50px 0px;
+}
+
+#faq .accordion {
+    padding: 18px;
+    background-color: #fdeeee;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    max-width: 600px;
+  }
+  #faq button{
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+  }
+  #faq p{
+      color: #282828;
+      font-size: 14px;
+  }
+  #faq .panel {
+    padding: 0px 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    max-width: 600px;
+  }
+  #faq .accordion:after {
+    content: "\02795";
+    font-size: 10px;
+    color: #E50003;
+    float: right;
+    margin-left: 5px;
+  }
+  #faq .active:after {
+    content: "\2796";
+    font-size: 10px;
+  }
+  #faq .panel p{
+      text-align: left;
+    margin: 10px 2px;
+  }
+
+/****** Footer Section ******/
+footer{
+    color: #979797;
+    background-color: #373737;
+    padding: 50px 0px 0px 0px;
+    text-align: center;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+.footer-icons{
+    margin-bottom: 10px;
+}
+footer i{
+    color: white;
+    padding: 0px 12px;
+    font-size: 20px;
+    transition-duration: 0.5s;
+}
+.fa-envelope:hover{
+    color: #de5246;
+}
+.fa-facebook-f:hover{
+    color: #4267B2;
+}
+.fa-instagram:hover{
+    color: #8a3ab9;
+}
+.fa-youtube:hover{
+    color: #FF0000;
+}
+.fa-telegram-plane:hover{
+    color: #0088cc;
+}
+
+.footer_bottom{
+    padding: 25px;
+    margin: 25px 0px 0px 0px;
+    background-color: #282828;
+    text-align: center
+}
+.footer_bottom p{
+    font-size: 16px;
+    color: white;
+}
+
+.footer_warning{
+    padding: 10px;
+    background-color: white;
+}
+
+#error{
+    padding: 50px 0px;
+}
+
+#error img{
+    height: 250px;
+    max-width: 90vh;
+}
+
+
+
+
+
+  /*--------------------------------------------------------------
+  # Testimonials
+  --------------------------------------------------------------*/
+  .testimonials .testimonials-carousel, .testimonials .testimonials-slider {
+    overflow: hidden;
+  }
+  .testimonials .testimonial-item {
+    box-sizing: content-box;
+    padding: 30px;
+    margin: 30px 15px;
+    min-height: 200px;
+    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
+    position: relative;
+    background: #fff;
+    border-radius: 15px;
+  }
+  .testimonials .testimonial-item .testimonial-img {
+    width: 90px;
+    border-radius: 10px;
+    border: 6px solid #fff;
+    float: left;
+    margin: 0 10px 0 0;
+  }
+  .testimonials .testimonial-item h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 25px 0 5px 0;
+    color: #111;
+  }
+  .testimonials .testimonial-item h4 {
+    font-size: 14px;
+    color: #999;
+    margin: 0;
+  }
+  .testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
+    color: #fceaea;
+    font-size: 26px;
+  }
+  .testimonials .testimonial-item .quote-icon-left {
+    display: inline-block;
+    left: -5px;
+    position: relative;
+  }
+  .testimonials .testimonial-item .quote-icon-right {
+    display: inline-block;
+    right: -5px;
+    position: relative;
+    top: 10px;
+  }
+  .testimonials .testimonial-item p {
+    font-style: italic;
+    margin: 30px auto 15px auto;
+  }
+  .testimonials .swiper-pagination {
+    margin-top: 20px;
+    position: relative;
+  }
+  .testimonials .swiper-pagination .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    opacity: 1;
+    border: 1px solid #e03a3c;
+  }
+  .testimonials .swiper-pagination .swiper-pagination-bullet-active {
+    background-color: #e03a3c;
+  }
+ 
